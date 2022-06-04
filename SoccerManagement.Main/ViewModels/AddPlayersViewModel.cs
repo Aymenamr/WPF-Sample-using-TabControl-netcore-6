@@ -35,7 +35,6 @@ namespace SoccerManagement.Main.ViewModels
             Player = new Player();
 
         }
-
         public bool CanAddPlayer()
         {
             return !string.IsNullOrWhiteSpace(Player.FirstName);
