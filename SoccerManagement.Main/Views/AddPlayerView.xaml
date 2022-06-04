@@ -83,6 +83,5 @@
 
         <Button Grid.Row="6" HorizontalAlignment="Center" Margin="5" Style="{StaticResource MaterialDesignOutlinedButton}"  ToolTip="Add a player"
                             Content="Add" Width="200" Command="{Binding AddPlayerCommand}"  />
-
     </Grid>
 </UserControl>
