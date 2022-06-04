@@ -43,6 +43,11 @@ namespace SoccerManagement.Main
         {
             GetPlayersTab.Content = new ListOfPlayersView();
         }
+        
+        private void GetDashboardStackPanel_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            DashboardTab.Content = new DashboardView();
+        }
 
     }
 }

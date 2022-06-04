@@ -9,11 +9,15 @@
     <Grid>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
             <GroupBox Grid.Row="0" Width="200" Height="200" Header="Number of Players" FontWeight="Bold"  Margin="3" >
-                <TextBlock Text="15" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="72" FontWeight="Bold"></TextBlock>
+                <TextBlock Text="{Binding TotalPlayers}" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="72" FontWeight="Bold"></TextBlock>
             </GroupBox>
 
             <GroupBox  Grid.Row="0" Width="200" Height="200" Header="Number of Teams" FontWeight="Bold" Margin="3" >
-                <TextBlock Text="15" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="72" FontWeight="Bold"></TextBlock>
+                <TextBlock Text="{Binding TotalTeams}" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="72" FontWeight="Bold"></TextBlock>
+            </GroupBox>
+
+            <GroupBox  Grid.Row="0" Width="200" Height="200" Header="Number of Goals" FontWeight="Bold" Margin="3" >
+                <TextBlock Text="{Binding TotalGoals}" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="72" FontWeight="Bold"></TextBlock>
             </GroupBox>
 
         </StackPanel>
